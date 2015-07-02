@@ -2,6 +2,7 @@ angular.module('app.offer-mgmt')
     .filter('intToWeekDay', function () {
 	'use strict';
 	return function (item) {
+	
 		var day;
 		switch (item) {
 			case 1:
